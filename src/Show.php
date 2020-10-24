@@ -3,12 +3,12 @@
 
   require_once 'Mapper.php';
   
-  class Showing extends Mapper{
+  class Show extends Mapper{
     public function getResult(){
       return $this->setResult();
     }
   }
 
-  $show = new Showing();
+  $show = new Show();
   print_r($show->getResult());
 ?>
